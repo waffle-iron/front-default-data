@@ -64,13 +64,13 @@ _Este projeto tenta utilizar o [padrão de estrutura em átomos (atomic design)]
 
 - Dentro de `/atoms/` é cabível arquivos como: `_inputs.sass`.
 - Dentro de `/organisms/` é cabível arquivos como: `_search.sass`.
-- Dentro de `/organisms/` é cabível arquivos como: `_header.sass`.
+- Dentro de `/atoms/` é cabível arquivos como: `_header.sass`.
 
         Há ainda muito o que melhorar no que tange esta estrutura!
 
 <a name="compilando-sass"></a>
 
-#### compilando...
+#### <a href="https://github.com/tadeubarbosa/front-default-data/blob/master/www/gulpfile.coffee#L21" targe="_blank">compilando...</a>
 
 Após editar algum arquivo, abra o `prompt de comando`, vá até o diretório `/path/to/www/` e insira o comando:
 
@@ -78,7 +78,7 @@ Após editar algum arquivo, abra o `prompt de comando`, vá até o diretório `/
 
 <a name="assistindo-sass"></a>
 
-#### assistindo (watch) os arquivos...
+#### <a href="https://github.com/tadeubarbosa/front-default-data/blob/master/www/gulpfile.coffee#L91" targe="_blank">assistindo (watch) os arquivos...</a>
 
 Caso queira que o `gulp` verifique constantemente se há alteração nos arquivos insira o comando:
 
@@ -86,7 +86,7 @@ Caso queira que o `gulp` verifique constantemente se há alteração nos arquivo
 
 <a name="finalizando-sass"></a>
 
-#### finalizando com sass...
+#### <a href="https://github.com/tadeubarbosa/front-default-data/blob/master/www/gulpfile.coffee#L48" targe="_blank">finalizando com sass...</a>
 
 Para finalizar com `sass`, ou seja, gerar/atualizar o arquivo `/www/build/main.min.css`, insira o comando:
 
@@ -110,13 +110,13 @@ Para trabalhar com o `coffee`, vá até o diretório `/dev/` e edite os arquivos
     - controllers/  !-- gestão dos controllers
     - directives/   !-- gestão das diretivas
     - filters/      !-- gestão dos filtros
-    - services/     !-- gestão dos services
+    - services/     !-- gestão dos serviços
     - (main.js)     !-- gerado pelo gulp, junção de todos os arquivos
 ````
 
 <a name="compilando-coffee"></a>
 
-#### compilando...
+#### <a href="https://github.com/tadeubarbosa/front-default-data/blob/master/www/gulpfile.coffee#L79" targe="_blank">compilando...</a>
 
 Após editar algum arquivo, abra o `prompt de comando`, vá até o diretório `/path/to/www/` e insira o comando:
 
@@ -124,7 +124,7 @@ Após editar algum arquivo, abra o `prompt de comando`, vá até o diretório `/
 
 <a name="assistindo-coffee"></a>
 
-#### assistindo (watch) os arquivos...
+#### <a href="https://github.com/tadeubarbosa/front-default-data/blob/master/www/gulpfile.coffee#L96" targe="_blank">assistindo (watch) os arquivos...</a>
 
 Caso queira que o `gulp` verifique constantemente se há alteração nos arquivos insira o comando:
 
@@ -132,7 +132,7 @@ Caso queira que o `gulp` verifique constantemente se há alteração nos arquivo
 
 <a name="finalizando-coffee"></a>
 
-#### finalizando com coffee...
+#### <a href="https://github.com/tadeubarbosa/front-default-data/blob/master/www/gulpfile.coffee#L62" targe="_blank">finalizando com coffee...</a>
 
 Para finalizar com `coffee`, ou seja, gerar/atualizar o arquivo `/www/build/main.min.js`, insira o comando:
 
@@ -141,7 +141,7 @@ Para finalizar com `coffee`, ou seja, gerar/atualizar o arquivo `/www/build/main
 
 ---
 
-### Finalizando com `sass` e `coffee` juntos:
+### <a href="https://github.com/tadeubarbosa/front-default-data/blob/master/www/gulpfile.coffee#L88" targe="_blank">Finalizando com `sass` e `coffee` juntos:</a>
 
 Para gerar os arquivos necessários para finalização, insira no comando:
 

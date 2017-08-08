@@ -45,9 +45,9 @@ Para iniciar a compilação adicione no seu arquivo:
 
 Para trabalhar com o `sass`, vá até o diretório `/dev/` e edite os arquivos dentro do diretório `/sass/`.
 
-#### estrutura dos arquivos...
-
 <a name="estrutura-sass"></a>
+
+#### estrutura dos arquivos...
 
 ````
 - atomic/
@@ -68,25 +68,25 @@ _Este projeto tenta utilizar o [padrão de estrutura em átomos (atomic design)]
 
         Há ainda muito o que melhorar no que tange esta estrutura!
 
-#### compilando...
-
 <a name="compilando-sass"></a>
+
+#### compilando...
 
 Após editar algum arquivo, abra o `prompt de comando`, vá até o diretório `/path/to/www/` e insira o comando:
 
     gulp sass
 
-#### assistindo (watch) os arquivos...
-
 <a name="assistindo-sass"></a>
+
+#### assistindo (watch) os arquivos...
 
 Caso queira que o `gulp` verifique constantemente se há alteração nos arquivos insira o comando:
 
     gulp sass:watch
 
-#### finalizando com sass...
-
 <a name="finalizando-sass"></a>
+
+#### finalizando com sass...
 
 Para finalizar com `sass`, ou seja, gerar/atualizar o arquivo `/www/build/main.min.css`, insira o comando:
 
@@ -100,9 +100,9 @@ Para finalizar com `sass`, ou seja, gerar/atualizar o arquivo `/www/build/main.m
 
 Para trabalhar com o `coffee`, vá até o diretório `/dev/` e edite os arquivos dentro do diretório `/angular/`.
 
-#### estrutura dos arquivos...
-
 <a name="estrutura-coffee"></a>
+
+#### estrutura dos arquivos...
 
 ````
 - angular/
@@ -114,25 +114,25 @@ Para trabalhar com o `coffee`, vá até o diretório `/dev/` e edite os arquivos
     - (main.js)     !-- gerado pelo gulp, junção de todos os arquivos
 ````
 
-#### compilando...
-
 <a name="compilando-coffee"></a>
+
+#### compilando...
 
 Após editar algum arquivo, abra o `prompt de comando`, vá até o diretório `/path/to/www/` e insira o comando:
 
     gulp coffee
 
-#### assistindo (watch) os arquivos...
-
 <a name="assistindo-coffee"></a>
+
+#### assistindo (watch) os arquivos...
 
 Caso queira que o `gulp` verifique constantemente se há alteração nos arquivos insira o comando:
 
     gulp coffee:watch
 
-#### finalizando com coffee...
-
 <a name="finalizando-coffee"></a>
+
+#### finalizando com coffee...
 
 Para finalizar com `coffee`, ou seja, gerar/atualizar o arquivo `/www/build/main.min.js`, insira o comando:
 
